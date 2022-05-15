@@ -1,0 +1,22 @@
+.status-message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .done-message{
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        img{
+            height:30px;
+            align-self: center;
+            margin-bottom: 20px;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        .done-message{
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+}

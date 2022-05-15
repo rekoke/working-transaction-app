@@ -1,0 +1,26 @@
+@use './styles/Login.scss';
+@use './styles/Wallet.scss';
+@use './styles/Send.scss';
+@use './styles/TransactionForm.scss';
+@use './styles/DoneComponent.scss';
+
+@font-face {
+    font-family: "Geomanist";
+    src: url("./fonts/Geomanist-Regular.otf") format("opentype");
+  }
+@font-face {
+    font-family: "Source";
+    src: url("./fonts/SourceSansPro-Regular.ttf") format("truetype");
+  }
+
+
+body{
+    background-color: #ebebeb;
+    margin: 0;
+    h1,h2,h3{
+        font-family: "Source";
+    }
+    p, li, div{
+        font-family: "Source";
+    }
+}
