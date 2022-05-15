@@ -99,7 +99,7 @@ const Login = () => {
                 <button disabled={!usr || !pwd || error}>Sign in</button>
                 {error && <p> {error}</p> }
             </form>
-            <img src={logo} />
+            <img alt="belvo_logo" src={logo} />
         </div>
     </div>
   )

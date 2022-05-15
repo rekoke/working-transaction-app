@@ -7,7 +7,7 @@ const StatusMessage = () => {
     const { status, contacTransaction } = useUser();
     switch(status) {
         case 'Done':
-            return <div className="done-message"> <img src={logo} /> Your crypto was successfully sent to {contacTransaction.name}</div>;
+            return <div className="done-message"> <img alt="done_logo" src={logo} /> Your crypto was successfully sent to {contacTransaction.name}</div>;
         case 'Pending':
             return <p>Your crypto is being sent...</p>;
         case 'Reject':
